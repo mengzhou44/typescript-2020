@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var collection_1 = require("./collection");
+var linkedList = new collection_1.LinkedList();
+linkedList.add(19);
+linkedList.add(2);
+linkedList.add(-3);
+linkedList.add(21);
+linkedList.add(8);
+linkedList.sort();
+console.log(linkedList);
